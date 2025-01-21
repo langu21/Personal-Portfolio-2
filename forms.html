@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <form action="index.html">
+        <label for="fname">First name:</label><br>
+        <input type="text"id="fname"value=""><br><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text"id="lname"value=""><br><br>
+        <label for ="email">Email:</label><br>
+        <input type="email"name="txtName"placeholder="Email"><br>
+        <label for="Comments">Comments:</label><br><br>
+        <textarea name="txtComments"maxlength="500"></textarea>
+        <br>
+        <label for="pass">Password</label><br>
+        
+        <input type="password"id="password"name="password"required><br>
+        <p>Select City:</p>
+        <select name="City">
+            <option selected>Mumbai</option>
+            <option>Bangalore</option>
+            <option> Pune </option>
+            <option>Chattisgarh</option>
+            <option >Nagpur</option>
+        </select><br>
+        
+        <input type="checkbox"name="bike"value="bike">bike<br>
+        <input type="checkbox"name="car"value="car">Car<br>
+        <input type="radio"name="sex"value="male">Male
+        <input type="radio"name="sex"value="female">Female<br>
+
+        <input type="submit"value="Submit">
+    </form>
+</body>
+</html>
+
